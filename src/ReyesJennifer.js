@@ -8,8 +8,8 @@ import ReyesJenniferTable from './ReyesJenniferTable';
 const ReyesJennifer = () => {
   const { getList, items, isLoading } = useGetList();
   
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('techbae@gmail.com');
+  const [password, setPassword] = useState('test');
 
   const data = qs.stringify({
    
